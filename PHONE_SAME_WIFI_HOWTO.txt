@@ -1,0 +1,25 @@
+Gongyuan Film Filter - SAME-WIFI PHONE USAGE GUIDE
+====================================================
+
+1. Connect BOTH this PC AND your phone to THE SAME WiFi network.
+
+2. On this PC, double-click run_portable.bat to launch.
+
+3. Read the line printed by the launcher window like:
+     Phone browser (same WiFi): http://192.168.1.123:8000/
+   Type the FULL http://IP:8000/ into your phone's browser
+   address bar and press Enter.
+
+4. Usage on the phone is identical to on the PC:
+   pick a film -> upload photo -> process -> tap Download to save.
+
+Troubleshooting:
+ - Phone timeout / cannot connect?
+   Disable Windows Firewall / antivirus temporarily, or add an
+   inbound rule to allow TCP port 8000.
+ - No 'Phone browser' line printed?
+   This PC is not on WiFi or is on a VPN. Reconnect to the same
+   WiFi as the phone, re-run run_portable.bat.
+ - Copy to another Windows PC?
+   Zip the WHOLE release\ folder -> copy -> unzip on target ->
+   double-click run_portable.bat. Target does NOT need Python.
